@@ -31,8 +31,7 @@ public class NumberGuessing {
 	
 	
 	void guess(int limit ,String remain) {
-	    
-		
+	 
 		totalAttempts = Integer.parseInt(remain);
 		
 		System.out.print("Random value from 1 to 100 is: ");
@@ -70,10 +69,10 @@ public class NumberGuessing {
 		JOptionPane.showMessageDialog(null,"You got "+ score + "%");
 	}
 	
-	
 	public static void main(String[] args) {
 		NumberGuessing n1 = new NumberGuessing();   
 	    n1.addAttempts();
+		
 	}
 
 }
